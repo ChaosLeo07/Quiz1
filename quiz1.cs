@@ -14,14 +14,14 @@ namespace quiz1
             if (a == 19)
             {
                 b += 1;
-                Console.WriteLine("Good job now u have " + b + " " + p1 + "!");
+                Console.WriteLine("Good job now you have " + b + " " + p1 + "!");
             }
             else
             {
                 if (a != 19)
                     b -= 1;
 
-                Console.WriteLine("Nah now u have " + b + " " + p2 + "!");
+                Console.WriteLine("Nah now you have " + b + " " + p2 + "!");
 
             }
 
@@ -33,18 +33,18 @@ namespace quiz1
                 b += 1;
                 if (b > 1)
                 {
-                    Console.WriteLine("Good job now u have " + b + " " + p2 + "!");
+                    Console.WriteLine("Good job now you have " + b + " " + p2 + "!");
                 }
                 else
                     if (b == 1 || b == 0 || b == -1)
                 {
-                    Console.WriteLine("Good job now u have " + b + " " + p1 + "!");
+                    Console.WriteLine("Good job now you have " + b + " " + p1 + "!");
 
                 }
                 else
                     if (b < -1)
                     {
-                    Console.WriteLine("Good job now u have " + b + " " + p2);
+                    Console.WriteLine("Good job now you have " + b + " " + p2);
                     }
             }
             if (c != 11)
@@ -52,18 +52,18 @@ namespace quiz1
                 b -= 1;
                 if (b > 1)
                 {
-                    Console.WriteLine("Nah now u have " + b + " " + p2 + "!");
+                    Console.WriteLine("Nah now you have " + b + " " + p2 + "!");
                 }
                 else
                     if (b == 1 || b == 0 || b == -1)
                 {
-                    Console.WriteLine("Nah now u have " + b + " " + p1 + "!");
+                    Console.WriteLine("Nah now you have " + b + " " + p1 + "!");
                 }
                 else
 
                         if (b < -1)
                 {
-                    Console.WriteLine("Nah now u have " + b + " " + p2 + "!");
+                    Console.WriteLine("Nah now you have " + b + " " + p2 + "!");
                 }
 
 
