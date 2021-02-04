@@ -20,7 +20,9 @@ namespace quiz1
             {
                 if (a != 19)
                     b -= 1;
+
                 Console.WriteLine("Nah now u have " + b + " " + p1 + "!");
+
             }
 
             Console.WriteLine("What is 6+5?");
@@ -39,6 +41,11 @@ namespace quiz1
                     Console.WriteLine("Good job now u have " + b + " " + p1 + "!");
 
                 }
+                else
+                    if (b < -1)
+                    {
+                    Console.WriteLine("Good job now u have " + b + " " + p2);
+                    }
             }
             if (c != 11)
             {
@@ -53,10 +60,12 @@ namespace quiz1
                     Console.WriteLine("Nah now u have " + b + " " + p1 + "!");
                 }
                 else
+
                         if (b < -1)
                 {
                     Console.WriteLine("Nah now u have " + b + " " + p2 + "!");
                 }
+
 
             }
             Console.WriteLine("Press any key to exit...");
