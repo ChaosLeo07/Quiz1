@@ -21,7 +21,7 @@ namespace quiz1
                 if (a != 19)
                     b -= 1;
 
-                Console.WriteLine("Nah now u have " + b + " " + p1 + "!");
+                Console.WriteLine("Nah now u have " + b + " " + p2 + "!");
 
             }
 
