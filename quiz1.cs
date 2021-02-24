@@ -8,7 +8,7 @@ namespace quiz1
         {
             string p1 = "point";
             string p2 = "points";
-			Console.WriteLine("Hello there!");
+	    Console.WriteLine("Hello there!");
             Console.WriteLine("What is 9+10?");
             int a = Convert.ToInt16(Console.ReadLine());
             int b = 0;
